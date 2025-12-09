@@ -1,6 +1,10 @@
 # NotEt
 
 <div align="center">
+  <img src="logo.svg" width="128" height="128" alt="NotEt Logo">
+</div>
+
+<div align="center">
 
 **Tarayıcı Tabanlı, Minimalist ve %100 Yerel Not Alma Uygulaması**
 
@@ -44,7 +48,7 @@ Uygulamayı indirmeden kullanmak için: [huseyinacikgoz.com.tr/notet](https://hu
 
 1. **Projeyi klonlayın:**
    ```bash
-   git clone https://github.com/huseyinacikgoz/notet.git
+   git clone https://github.com/huseyinacikgoz/NotEt.git
    cd notet
    ```
 
@@ -123,7 +127,7 @@ Katkılarınızı bekliyoruz! Lütfen:
 ## 🔗 Bağlantılar
 
 - [🌐 Canlı Demo](https://huseyinacikgoz.com.tr/notet/)
-- [🐞 Hata Bildir](https://github.com/huseyinacikgoz/notet/issues)
+- [🐞 Hata Bildir](https://github.com/huseyinacikgoz/NotEt/issues)
 
 ---
 
