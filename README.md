@@ -1,20 +1,16 @@
+<div align="right">
+
+[Türkçe](#türkçe) | [English](#english)
+
+</div>
+
+<a id="türkçe"></a>
+
 # NotEt
 
 <div align="center">
   <img src="favicon/apple-touch-icon.png" width="128" height="128" alt="NotEt Logo">
 </div>
-
-<div align="center">
-
-**🌐 Dil Seçimi | Language Selection**
-
-[🇹🇷 Türkçe](#türkçe) | [🇬🇧 English](#english)
-
-</div>
-
----
-
-<a id="türkçe"></a>
 
 <div align="center">
 
@@ -151,15 +147,7 @@ Made with ❤️ by [Hüseyin Açıkgöz](https://huseyinacikgoz.com.tr)
 
 ---
 
-<div align="center">
-
 <a id="english"></a>
-
-# 🇬🇧 English Version
-
-</div>
-
----
 
 # NotEt
 
