@@ -1,5 +1,5 @@
-import { CONFIG, generateId } from './utils.js';
-import { CryptoUtils } from './crypto-utils.js';
+import { CONFIG, generateId } from './utils.js?v=0.0.3';
+import { CryptoUtils } from './crypto-utils.js?v=0.0.3';
 
 class Store {
     constructor() {

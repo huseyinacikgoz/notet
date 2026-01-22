@@ -10,7 +10,7 @@
 
 [🌐 Canlı Demo](https://huseyinacikgoz.com.tr/notet/) • [📧 İletişim](mailto:mail@huseyinacikgoz.com.tr) • [🐦 Twitter/X](https://x.com/huseyinacikgoz_) • [💻 GitHub](https://github.com/huseyinacikgoz)
 
-[![Sürüm](https://img.shields.io/badge/sürüm-v0.0.2-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
+[![Sürüm](https://img.shields.io/badge/sürüm-v0.0.3-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](LICENSE)
 [![Durum](https://img.shields.io/badge/durum-Yayında-green?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 

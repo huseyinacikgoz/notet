@@ -2,6 +2,33 @@
 
 Tüm önemli değişiklikler bu dosyada belgelenecektir.
 
+## [v0.0.3] - 2026-01-23
+
+### 🚀 Yeni Özellikler
+- **Client-Side Routing (SPA)**: Uygulama artık tek sayfa uygulaması olarak çalışıyor
+  - URL her zaman temiz kalıyor (`/notet` - hash veya ek path yok)
+  - Tarayıcı geri/ileri butonları düzgün çalışıyor
+  - Sayfa yenilemesi olmadan hızlı geçişler
+
+### 🎨 Tasarım İyileştirmeleri
+- **Landing Page Optimizasyonu**: CTA butonları artık sayfa açıldığında hemen görünüyor
+  - Hero section padding ve margin değerleri optimize edildi
+  - Mobil cihazlarda daha iyi görünüm
+- **Başlık Düzeltmesi**: "Güvenle Saklayın" kelimelerindeki boşluk sorunu giderildi
+
+### 🐛 Hata Düzeltmeleri
+- **Sidebar Navigasyonu**: Sol menüdeki linkler artık doğru çalışıyor (landing page'e geri dönmüyor)
+- **Alt Sayfa Linkleri**: privacy.html, terms.html, contact.html'deki "Uygulamaya Git" butonları düzeltildi
+
+### �️ Kaldırılan Dosyalar
+- **notes.html**: Artık kullanılmıyor, tüm işlevsellik index.html'e taşındı (SPA mimarisi)
+
+### �📄 Dokümantasyon
+- README.md güncellendi (sürüm v0.0.3 olarak işaretlendi)
+- CHANGELOG.md güncellendi
+
+---
+
 ## [v0.0.2] - 2025-12-26
 
 ### 🎨 Tasarım İyileştirmeleri

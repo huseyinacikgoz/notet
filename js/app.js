@@ -1,8 +1,8 @@
-import { store } from './store.js';
-import { Sidebar } from './components/sidebar.js';
-import { NoteList } from './components/note-list.js';
-import { NoteEditor } from './components/note-editor.js';
-import { Modal } from './components/modal.js';
+import { store } from './store.js?v=0.0.3';
+import { Sidebar } from './components/sidebar.js?v=0.0.3';
+import { NoteList } from './components/note-list.js?v=0.0.3';
+import { NoteEditor } from './components/note-editor.js?v=0.0.3';
+import { Modal } from './components/modal.js?v=0.0.3';
 
 class App {
     constructor() {

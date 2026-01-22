@@ -1,4 +1,4 @@
-import { store } from '../store.js';
+import { store } from '../store.js?v=0.0.3';
 
 export class Modal {
     constructor() {

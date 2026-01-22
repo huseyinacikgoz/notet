@@ -1,5 +1,5 @@
-import { store } from '../store.js';
-import { escapeHtml, formatDate } from '../utils.js';
+import { store } from '../store.js?v=0.0.3';
+import { escapeHtml, formatDate } from '../utils.js?v=0.0.3';
 
 export class NoteList {
     constructor() {
