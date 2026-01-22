@@ -6,6 +6,18 @@
 
 <div align="center">
 
+**🌐 Dil Seçimi | Language Selection**
+
+[🇹🇷 Türkçe](#türkçe) | [🇬🇧 English](#english)
+
+</div>
+
+---
+
+<a id="türkçe"></a>
+
+<div align="center">
+
 **Tarayıcı Tabanlı, Minimalist ve %100 Yerel Not Alma Uygulaması**
 
 
@@ -140,6 +152,8 @@ Made with ❤️ by [Hüseyin Açıkgöz](https://huseyinacikgoz.com.tr)
 ---
 
 <div align="center">
+
+<a id="english"></a>
 
 # 🇬🇧 English Version
 
