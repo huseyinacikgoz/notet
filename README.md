@@ -17,7 +17,7 @@
 **Tarayıcı Tabanlı, Minimalist ve %100 Yerel Not Alma Uygulaması**
 
 
-[![Sürüm](https://img.shields.io/badge/sürüm-v0.0.3-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
+[![Sürüm](https://img.shields.io/badge/sürüm-v0.0.4-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-blue?style=flat-square)](LICENSE)
 [![Durum](https://img.shields.io/badge/durum-Yayında-green?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 
@@ -159,7 +159,7 @@ Made with ❤️ by [Hüseyin Açıkgöz](https://huseyinacikgoz.com.tr)
 
 **Browser-Based, Minimalist and 100% Local Note-Taking Application**
 
-[![Version](https://img.shields.io/badge/version-v0.0.3-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
+[![Version](https://img.shields.io/badge/version-v0.0.4-black?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Live-green?style=flat-square)](https://huseyinacikgoz.com.tr/notet/)
 
