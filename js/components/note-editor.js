@@ -1,5 +1,5 @@
-import { store } from '../store.js?v=0.0.3';
-import { CONFIG, escapeHtml } from '../utils.js?v=0.0.3';
+import { store } from '../store.js?v=0.0.4';
+import { CONFIG, escapeHtml } from '../utils.js?v=0.0.4';
 
 export class NoteEditor {
     constructor() {
