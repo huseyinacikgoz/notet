@@ -1,5 +1,5 @@
-import { store } from '../store.js?v=0.0.3';
-import { escapeHtml } from '../utils.js?v=0.0.3';
+import { store } from '../store.js?v=0.0.4';
+import { escapeHtml } from '../utils.js?v=0.0.4';
 
 export class Sidebar {
     constructor() {
