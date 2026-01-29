@@ -112,7 +112,7 @@ export class Sidebar {
     }
 
     setupMobileEvents() {
-        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileBtn = document.getElementById('app-mobile-menu-btn');
         const overlay = document.getElementById('sidebar-overlay');
         const sidebar = document.getElementById('sidebar');
 
