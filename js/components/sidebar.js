@@ -5,7 +5,50 @@ export class Sidebar {
     constructor() {
         this.container = document.getElementById('sidebar-container');
         this.unsubscribe = store.subscribe(this.render.bind(this));
+
+        // Setup global event listeners once
+        this.setupEventListeners();
+
         this.render();
+    }
+
+    setupEventListeners() {
+        // Use event delegation for persistent events
+        document.addEventListener('click', (e) => {
+            // Toggle Button Click
+            const mobileBtn = e.target.closest('#app-mobile-menu-btn');
+            if (mobileBtn) {
+                const sidebar = document.getElementById('sidebar');
+                const overlay = document.getElementById('sidebar-overlay');
+                if (sidebar && overlay) {
+                    sidebar.classList.toggle('mobile-open');
+                    overlay.classList.toggle('active');
+                }
+                return;
+            }
+
+            // Overlay Click
+            if (e.target.id === 'sidebar-overlay') {
+                const sidebar = document.getElementById('sidebar');
+                const overlay = document.getElementById('sidebar-overlay');
+                if (sidebar) sidebar.classList.remove('mobile-open');
+                if (overlay) overlay.classList.remove('active');
+                return;
+            }
+
+            // Sidebar Link Click (Close menu on mobile)
+            if (window.innerWidth <= 768) {
+                const sidebar = document.getElementById('sidebar');
+                if (sidebar && sidebar.contains(e.target)) {
+                    const link = e.target.closest('a, button, .logo');
+                    if (link) {
+                        const overlay = document.getElementById('sidebar-overlay');
+                        sidebar.classList.remove('mobile-open');
+                        if (overlay) overlay.classList.remove('active');
+                    }
+                }
+            }
+        });
     }
 
     render(state = store.state) {
@@ -108,42 +151,7 @@ export class Sidebar {
             </aside>
         `;
 
-        this.setupMobileEvents();
     }
 
-    setupMobileEvents() {
-        const mobileBtn = document.getElementById('app-mobile-menu-btn');
-        const overlay = document.getElementById('sidebar-overlay');
-        const sidebar = document.getElementById('sidebar');
 
-        if (mobileBtn && overlay && sidebar) {
-            // Remove old listeners to prevent duplicates if re-rendered
-            const newBtn = mobileBtn.cloneNode(true);
-            mobileBtn.parentNode.replaceChild(newBtn, mobileBtn);
-
-            const newOverlay = overlay.cloneNode(true);
-            overlay.parentNode.replaceChild(newOverlay, overlay);
-
-            newBtn.addEventListener('click', () => {
-                sidebar.classList.toggle('mobile-open');
-                newOverlay.classList.toggle('active');
-            });
-
-            newOverlay.addEventListener('click', () => {
-                sidebar.classList.remove('mobile-open');
-                newOverlay.classList.remove('active');
-            });
-
-            // Close sidebar when a link or logo is clicked on mobile
-            const links = sidebar.querySelectorAll('a, button, .logo');
-            links.forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 768) {
-                        sidebar.classList.remove('mobile-open');
-                        newOverlay.classList.remove('active');
-                    }
-                });
-            });
-        }
-    }
 }

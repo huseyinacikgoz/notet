@@ -1684,9 +1684,7 @@ select.form-input:focus {
 
 
 /* Utility */
-.hidden {
-    display: none !important;
-}
+/* .hidden class removed to avoid conflict with Tailwind */
 
 /* Scrollbar */
 ::-webkit-scrollbar {

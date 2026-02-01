@@ -1,5 +1,18 @@
 # Changelog
 
+## [v0.0.5] - 2026-02-02
+
+### Changed
+- **Navigation:** Updated desktop and mobile menus to prioritize 'Features' before 'How It Works'.
+- **UI:** Updated CTA buttons to be 'rounded-full' with consistent styling across hero and menus.
+- **Assets:** Moved `og-image` files to `favicon/` directory for cleaner structure.
+- **SEO/Social:** Added cache busting (`?v=0.1`) to Open Graph image URLs.
+
+### Fixed
+- **Menu Visibility:** Resolved CSS conflict hiding desktop menu items.
+- **Mobile Menu:** Fixed interactivity issues by implementing global event delegation in `Sidebar.js`.
+- **URL Handling:** Added client-side redirect to enforce trailing slash for consistent asset loading (`/notet` -> `/notet/`).
+
 ## [v0.0.4] - 2026-01-29
 
 ### Added
